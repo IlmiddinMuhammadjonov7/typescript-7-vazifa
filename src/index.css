@@ -1,0 +1,394 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 44px 120px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul:nth-child(1) li {
+  color: #244d4d;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar ul:nth-child(2) {
+  gap: 50px;
+}
+
+.navbar ul:nth-child(2) li {
+  color: #161616;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navbar ul:nth-child(3) {
+  font-size: 24px;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #154444;
+  color: white;
+  align-items: center;
+  margin-top: 27px;
+}
+
+.header h1 {
+  font-family: Montserrat;
+  font-size: 56px;
+  font-weight: 700;
+  width: 671px;
+  margin-bottom: 20px;
+}
+
+.header p {
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 400;
+  width: 488px;
+  margin-bottom: 35px;
+}
+
+.header button {
+  color: #154444;
+  background-color: white;
+  border: none;
+  padding: 15.5px 26px;
+}
+
+.pay {
+  text-align: center;
+  color: #244d4d;
+  font-family: "DM Sans";
+  font-weight: 700;
+  margin-top: 130px;
+}
+
+.pay h1 {
+  margin-bottom: 40px;
+}
+
+.main {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-items: center;
+}
+
+.main_2 h1 {
+  color: #244d4d;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  margin-bottom: 20px;
+}
+
+.about {
+  color: #444;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px; /* 125% */
+}
+
+.main_item {
+  display: flex;
+  padding-right: 60px;
+  margin-top: 40px;
+}
+
+.icon {
+  font-size: 50px;
+  color: #244d4d;
+  margin-right: 28px;
+}
+
+.main_item div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_item div span:nth-child(1) {
+  color: #244d4d;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px; /* 130% */
+}
+
+.main_item div span:nth-child(2) {
+  color: #383738;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+
+.qism h1 {
+  margin-top: 70px;
+  color: #242424;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52px; /* 162.5% */
+}
+
+.qism p {
+  margin-top: 20px;
+  color: #383738;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px; /* 135% */
+  width: 820px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.item {
+  background: #fff;
+  box-shadow: 0px 13px 26px 0px rgba(0, 0, 0, 0.07);
+}
+
+.item_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.item_2 h4 {
+  color: #242424;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px; /* 135% */
+}
+
+.icon_2 {
+  background-color: #ecf4ff;
+  color: #154444;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.qism_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin-top: -35px;
+}
+
+.qism_2 span {
+  color: #154444;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px; /* 129.167% */
+}
+
+.qism_2 button {
+  background-color: #154444;
+  color: white;
+  padding: 5.5px 14px;
+  border: none;
+}
+
+.category {
+  text-align: center;
+}
+
+.category h1 {
+  color: #242424;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  margin-bottom: 20px;
+  margin-top: 116px;
+}
+
+.category_list {
+  display: flex;
+  list-style-type: none;
+  gap: 100px;
+  justify-content: center;
+}
+
+.category_list * {
+  color: #919090;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27px; /* 112.5% */
+}
+
+.struc {
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.toplam {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.toplam div {
+  border: 1.5px solid #d9dce5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px;
+  width: 222px;
+}
+
+.toplam div span {
+  color: #808080;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px; /* 131.25% */
+}
+
+.icon_3 {
+  font-size: 20px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.ostki {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  margin-top: 120px;
+}
+
+.ostki div h1 {
+  color: #242424;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.ostki div p {
+  color: #383738;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px; /* 135% */
+  width: 530px;
+}
+
+.ostki div img {
+  margin-top: 30px;
+}
+
+.foter_tepa {
+  background: #f4f6f6;
+  padding: 68px 300px;
+  text-align: center;
+  margin-top: 180px;
+}
+
+.foter_tepa h1 {
+  color: #222;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  padding: 0px 30px;
+  font-weight: 700;
+  line-height: 48px; /* 150% */
+}
+
+.foter_tepa p {
+  color: #222;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  padding: 0px 80px;
+  margin-top: 20px;
+  line-height: 24px; /* 150% */
+  margin-bottom: 40px;
+}
+
+form {
+  background-color: white;
+  width: 470px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+form input {
+  border: none;
+  padding: 12px 40px;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #154444;
+  color: white;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+  padding: 0px 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #305f64;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 100px;
+
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul:nth-child(1) {
+  width: 400px;
+}
+
+.footer ul li {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  padding: 8px 20px; 
+}
